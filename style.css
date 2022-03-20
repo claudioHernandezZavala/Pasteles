@@ -1,0 +1,190 @@
+
+body{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+h1{
+    color: white;
+    font-size: 60px;
+}
+h2{
+    color: white;
+    font-size: 35px;
+}
+nav {
+    align-items: center;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0 15px 0;
+  }
+  .left1{
+      margin-top: 250px;
+      margin-left: 150px;
+      float: left;
+
+  }
+  .right1{
+      position: relative;
+      top: 10%;
+      margin: auto;
+      width: fit-content;
+      height: fit-content;
+    
+  }
+  .right1 img{
+      width: 1000px;
+  }
+  .right12{
+      margin-right: 150px;
+      margin-top: -250px;
+      float: right;
+      width: fit-content;
+      
+      
+  }
+  .right12 p{
+      font-size: 25px;
+      color: white;
+  }
+
+
+  nav img{
+      position: relative;
+      bottom: 5px;
+      margin-left: 15px;
+      width: 45px;
+      height: 45px;
+  }
+  
+  nav li{
+      display: inline;
+      position: relative;
+     margin-left: 25px;
+      left: 15px;
+      margin-right: 5px;
+      bottom: 15px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      
+  }
+
+.parallax{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#parallax1{
+  
+    background-color:#F2789F;
+}
+#parallax2-conocenos{
+    background-color: #F999B7;
+    /*background: linear-gradient(0deg, pink,rgb(240, 87, 112));*/
+}
+#p2-content{
+    margin-left: 100px;
+    top: 25%;
+    float: left;
+    position: relative;
+}
+#p3-content{
+    margin-left: 100px;
+    top: 25%;
+    float: left;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#p2-content h2,h3{
+    margin: 0;
+    text-align: justify;
+    line-height: 45px;
+    color:white;
+}
+#parallax3-clientes{
+    background-color: #E1578A;
+}
+.cliente{
+    margin-top: 45px;
+    display: inline-table;
+    width: 250px;
+    margin-right: 25px;
+    background-color: white;
+    height: 250px;
+    border-radius: 5%;
+    align-items: center;
+}
+.cliente img{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    top: 15px;
+    left: 35px;
+    
+
+}
+footer{
+    width: 100%;
+    position: absolute;
+    background-color: #FEE3EC;
+    justify-content: center;
+    align-items: center;
+}
+footer li{
+    display: inline;
+    margin-right: 25px;
+
+}
+footer img{
+    width: 35px;
+    height: 35px;
+    
+}
+#derechos{
+    float: right;
+    position: relative;
+    bottom: 4px;
+
+}
+#derechos h3{
+    color: black;
+}
+.infoRight{
+    float: right;
+    margin-right:150px;
+    margin-top: 150px;
+}
+
+.infoRight img{
+    width: 250px;
+    height: 350px;
+}
+#cupcake1{
+    width: 5px;
+    transform: rotate(145deg) translateX(150px) translateY(-250px);
+}
+#cupcake1 img{
+    width: 350px;
+}
+#cupcake2{
+    transform: translateX(-150px) rotate(-50deg) translateY(150px);
+
+}
+#cupcake2 img{
+    width: 250px;
+    height: 150px;
+}
+#cupcake3{
+    transform: rotate(45deg) translateX(-50px);
+}
+#la{
+    width: 550px;
+    height: 550px;
+}
